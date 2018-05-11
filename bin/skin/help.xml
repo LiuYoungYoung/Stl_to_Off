@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Window size="500,500" caption="0,0,0,32">
+  <Font id = "0" name="宋体" size="12" bold="false" italic="false" />
+  <Font id = "1" name="宋体" size="12" bold="true" italic="false" />
+  <Font id = "2" name="宋体" size="13" bold="false" italic="false" />
+  <Font id = "3" name="宋体" size="13" bold="true" italic="false" />
+  <Font id = "4" name="宋体" size="14" bold="false" italic="false" />
+  <Font id = "5" name="宋体" size="14" bold="true" italic="false" default="true"/>
+  <Font id = "6" name="宋体" size="18" bold="false" italic="false" />
+  <Font id = "7" name="宋体" size="18" bold="true" italic="false" />
+  <Font id = "8" name="宋体" size="24" bold="false" italic="false" />
+  <Font id = "9" name="宋体" size="24" bold="true" italic="false" />
+    <VerticalLayout bordersize="2" width="500" height="500" bkimage="help.png" bordercolor="#00808080">
+        <HorizontalLayout width="500" height="30">
+            <HorizontalLayout width="400" height="30" />
+            <HorizontalLayout width="100" height="30">
+                <Button name="ButtonClose" float="true" pos="55,0,0,0" width="30" height="30" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage="btn_close_normal.png" hotimage="btn_close_focus.png" pushedimage="btn_close_focus.png" />
+            </HorizontalLayout>
+        </HorizontalLayout>
+        <Label text="软件使用说明" float="true" pos="20,60,0,0" width="175" height="30" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+        <RichEdit name="RichEdit" float="true" pos="69,112,0,0" width="362" height="338" bkcolor="#00000000" textpadding="4,3,4,3" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+        <Label text="软件作者：Dua" float="true" pos="328,462,0,0" width="154" height="30" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+    </VerticalLayout>
+</Window>

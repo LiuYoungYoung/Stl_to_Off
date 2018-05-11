@@ -1,0 +1,57 @@
+﻿  StdAfx.cpp
+h:\visual c++\duilib\stl_to_off\duilib\Core/UIManager.h(45): warning C4091: “typedef ”: 没有声明变量时忽略“DuiLib::EVENTTYPE_UI”的左侧
+  UIActiveX.cpp
+  UIButton.cpp
+Control\UIButton.cpp(107): warning C4302: “类型转换”: 从“LPSTR”到“WORD”截断
+  UICheckBox.cpp
+  UICombo.cpp
+  UIComboBox.cpp
+  UIDateTime.cpp
+Control\UIDateTime.cpp(231): warning C4302: “类型转换”: 从“LPSTR”到“WORD”截断
+  UIEdit.cpp
+Control\UIEdit.cpp(194): warning C4302: “类型转换”: 从“LPSTR”到“WORD”截断
+  UILabel.cpp
+Control\UILabel.cpp(67): warning C4297: “DuiLib::CLabelUI::~CLabelUI”: 假定函数不引发异常，但确实发生了
+  Control\UILabel.cpp(67): note: 析构函数或释放器具有一个(可能是隐含的)非引发异常规范
+  UIList.cpp
+Control\UIList.cpp(1444): warning C4302: “类型转换”: 从“LPSTR”到“WORD”截断
+Control\UIList.cpp(1989): warning C4302: “类型转换”: 从“LPSTR”到“WORD”截断
+  UIOption.cpp
+  UIProgress.cpp
+  UIRichEdit.cpp
+  UIScrollBar.cpp
+  UISlider.cpp
+Control\UISlider.cpp(174): warning C4302: “类型转换”: 从“LPSTR”到“WORD”截断
+  UIText.cpp
+Control\UIText.cpp(52): warning C4302: “类型转换”: 从“LPSTR”到“WORD”截断
+  UITreeView.cpp
+  UIWebBrowser.cpp
+  UIBase.cpp
+  UIContainer.cpp
+  UIControl.cpp
+Core\UIControl.cpp(682): warning C4302: “类型转换”: 从“LPSTR”到“WORD”截断
+  正在生成代码...
+  正在编译...
+  UIDlgBuilder.cpp
+  UIManager.cpp
+  UIMarkup.cpp
+  UIRender.cpp
+Core\UIRender.cpp(1114): warning C4838: 从“int”转换到“COLOR16”需要收缩转换
+  UIChildLayout.cpp
+  UIHorizontalLayout.cpp
+Layout\UIHorizontalLayout.cpp(246): warning C4302: “类型转换”: 从“LPSTR”到“WORD”截断
+  UITabLayout.cpp
+  UITileLayout.cpp
+  UIVerticalLayout.cpp
+Layout\UIVerticalLayout.cpp(251): warning C4302: “类型转换”: 从“LPSTR”到“WORD”截断
+  UIlib.cpp
+  UIDelegate.cpp
+  Utils.cpp
+  WinImplBase.cpp
+  正在生成代码...
+  stb_image.c
+  XUnzip.cpp
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(1189,5): warning MSB8012: TargetPath(H:\Visual C++\DuiLib\Stl_to_Off\DuiLib\.\Build\Release\DuiLib.dll) does not match the Linker's OutputFile property value (H:\Visual C++\DuiLib\Stl_to_Off\bin\DuiLib.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+    正在创建库 ../Lib/DuiLib.lib 和对象 ../Lib/DuiLib.exp
+  DuiLib.vcxproj -> H:\Visual C++\DuiLib\Stl_to_Off\DuiLib\.\Build\Release\DuiLib.dll
+  DuiLib.vcxproj -> .\Build\Release\DuiLib.pdb (Full PDB)
